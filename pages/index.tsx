@@ -31,7 +31,7 @@ export default function App() {
 
   return (
     <Authenticator>
-      {({signOut, User}) => (
+      {({signOut, user}) => (
         <main>
           <h1>My todos</h1>
           <button onClick={createTodo}>+ new</button>
